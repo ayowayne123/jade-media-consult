@@ -88,7 +88,7 @@ export default function Header() {
       </div>
 
       <div
-        className={`fixed overflow-hidden w-full transition-transform duration-500 ease-in-out bg-white h-screen inset-0 lg:hidden z-50 flex ${
+        className={`fixed overflow-hidden w-full transition-transform duration-500 ease-in-out bg-white min-h-dvh h-full  inset-0 lg:hidden z-50 flex ${
           !menuOpen ? "-translate-x-full" : ""
         }`}
       >
